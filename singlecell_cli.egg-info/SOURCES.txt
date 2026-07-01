@@ -2,7 +2,7 @@ README.md
 pyproject.toml
 singlecell/__init__.py
 singlecell/cli/__init__.py
-singlecell/cli/main.py
+singlecell/cli/cli_config.py
 singlecell/core/__init__.py
 singlecell/core/logger.py
 singlecell/core/test.py

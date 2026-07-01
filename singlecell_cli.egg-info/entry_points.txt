@@ -1,2 +1,2 @@
 [console_scripts]
-singlecell = singlecell.cli.main:app
+singlecell = singlecell.cli.cli_config:app

@@ -4,7 +4,7 @@ import sys
 FILE_LOG = 'C:\\Users\\sanka\\Desktop\\SingleCell_CLI\\singlecell\\pipeline.log'
 
 logger = logging.getLogger()
-logger.setLevel(level = logging.DEBUG)
+logger.setLevel(level = logging.INFO)
 
 stream_handler = logging.StreamHandler(sys.stdout)
 stream_formatter = logging.Formatter('%(asctime)s-%(name)s-%(levelname)s-%(message)s')

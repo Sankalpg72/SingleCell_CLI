@@ -4,19 +4,21 @@ from pathlib import Path
 from typing import Annotated
 import sys
 import time 
-from singlecell.io.loader import 
+from singlecell.io.loader import load_data
 
 app = typer.Typer()
 
-
 # RUN Command 
 @app.command()
-def run(
-        input : Annotated[str ,typer.Option('-i','--input',help='Input Your Data (mtx dir / .h5ad / .h5 )'), typer] 
-):
-    '''
-    Load your data 
-    '''
+def run(input_path : Annotated[ Path , typer.Option(...,'-i','--input',exists =  True , help='Path to input file (.h5ad or .h5) or directory (10x mtx dir)') ]):
+    '''Load your data (.h5ad or .h5) or directory (10x mtx dir)'''
+    
+    if input_path:
+        logger.info(f"Loading data from {input}")
+        adata = load_data(input_path)
+        logger.info(f"Loaded AnnData: {adata.shape[0]} cells x {adata.shape[1]} genes")
+
+
     return 
 
 @app.command()
