@@ -1,7 +1,22 @@
 from pathlib import Path 
 import scanpy as sc 
 
+# Checks if the input path exists , if Exists matches the subfolder with defined pattern, if matched , return the subfolder 
 def load_data(input_path : Path ) -> sc.AnnData : 
+   
+    """
+    Search for files or Directory inside input_path.
+    
+   | ------------|
+   | Parameters: |
+   | ------------|
+   
+    input_path : Path object
+        Parent directory to search in.
+
+    input_path : is file : suffix == .h5ad or .h5 -> Load, else return error
+            : is dir : load it 
+    """
 
     input_path = Path(input_path)
 
@@ -24,20 +39,3 @@ def load_data(input_path : Path ) -> sc.AnnData :
     raise ValueError(f"Input path is neither a file nor a directory: {input_path}")
     
 
-# Checks if the input path exists , if Exists matches the subfolder with defined pattern, if matched , return the subfolder 
-"""
-Search for the first matching subfolder inside input_path.
-
-Parameters: 
-----------
-input_path : Path object
-    Parent directory to search in.
-
-input_path : is file : suffix == .h5ad or .h5 -> Load, else return error
-           : is dir : load it 
-Returns:
---------
-Path | None
-Path to the matching subfolder, or None if not found.
-
-"""
