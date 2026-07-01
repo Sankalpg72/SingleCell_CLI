@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+singlecell/__init__.py
+singlecell/cli/__init__.py
+singlecell/cli/main.py
+singlecell/core/__init__.py
+singlecell/core/logger.py
+singlecell/core/test.py
+singlecell/io/loader.py
+singlecell_cli.egg-info/PKG-INFO
+singlecell_cli.egg-info/SOURCES.txt
+singlecell_cli.egg-info/dependency_links.txt
+singlecell_cli.egg-info/entry_points.txt
+singlecell_cli.egg-info/top_level.txt
