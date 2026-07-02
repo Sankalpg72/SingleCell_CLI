@@ -1,3 +1,50 @@
 2026-07-01 23:46:23,258-root-INFO-Loading data from <built-in function input>
 2026-07-01 23:46:23,591-root-INFO-Loaded AnnData: 2700 cells x 32738 genes
 2026-07-01 23:47:03,847-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:03:03,273-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:03:42,112-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:03:42,831-root-INFO-Loaded AnnData: 2700 cells x 32738 genes
+2026-07-02 14:03:42,831-root-INFO-Loading the configs from C:\Users\sanka\Desktop\SingleCell_CLI\docs\test.yaml
+2026-07-02 14:07:10,216-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:07:10,612-root-INFO-Loaded AnnData: 2700 cells x 32738 genes
+2026-07-02 14:07:10,612-root-INFO-Loading the configs from C:\Users\sanka\Desktop\SingleCell_CLI\docs\test.yaml
+2026-07-02 14:07:10,614-root-INFO-config is {'database': {'host': 'localhost', 'port': 5432, 'features': ['backup', 'replication']}}
+2026-07-02 14:11:56,138-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:11:56,545-root-INFO-Loaded AnnData: 2700 cells x 32738 genes
+2026-07-02 14:11:56,546-root-INFO-Loading the configs from C:\Users\sanka\Desktop\SingleCell_CLI\docs\Readme.pdf
+2026-07-02 14:11:56,546-root-INFO-config is None
+2026-07-02 14:15:00,388-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:15:00,824-root-INFO-Loaded AnnData: 2700 cells x 32738 genes
+2026-07-02 14:15:00,825-root-INFO-Loading the configs from C:\Users\sanka\Desktop\SingleCell_CLI\docs\Readme.pdf
+2026-07-02 14:15:00,825-root-INFO-config is C:\Users\sanka\Desktop\SingleCell_CLI\docs\Readme.pdf
+2026-07-02 14:17:09,165-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:17:09,623-root-INFO-Loaded AnnData: 2700 cells x 32738 genes
+2026-07-02 14:17:09,623-root-INFO-Loading the configs from C:\Users\sanka\Desktop\SingleCell_CLI\docs\Readme.pdf
+2026-07-02 14:17:09,623-root-INFO-config is C:\Users\sanka\Desktop\SingleCell_CLI\docs\Readme.pdf
+2026-07-02 14:17:21,746-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:17:22,151-root-INFO-Loaded AnnData: 2700 cells x 32738 genes
+2026-07-02 14:17:22,152-root-INFO-Loading the configs from C:\Users\sanka\Desktop\SingleCell_CLI\docs\Readme.pdf
+2026-07-02 14:17:57,511-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:17:57,970-root-INFO-Loaded AnnData: 2700 cells x 32738 genes
+2026-07-02 14:17:57,970-root-INFO-Loading the configs from C:\Users\sanka\Desktop\SingleCell_CLI\docs\test.yaml
+2026-07-02 14:17:57,971-root-INFO-config is {'database': {'host': 'localhost', 'port': 5432, 'features': ['backup', 'replication']}}
+2026-07-02 14:19:01,378-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:19:55,684-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:19:56,084-root-INFO-Loaded AnnData: 2700 cells x 32738 genes
+2026-07-02 14:19:56,084-root-INFO-Loading the configs from C:\Users\sanka\Desktop\SingleCell_CLI\docs\test.yaml
+2026-07-02 14:19:56,086-root-INFO-config is {'database': {'host': 'localhost', 'port': 5432, 'features': ['backup', 'replication']}}
+2026-07-02 14:49:25,060-root-INFO-Loading data from <built-in function input>
+2026-07-02 14:49:25,485-root-INFO-Loaded AnnData: 350000 cells x 35 genes
+2026-07-02 14:49:25,485-root-INFO-Loading the configs from C:\Users\sanka\Desktop\SingleCell_CLI\docs\test.yaml
+2026-07-02 14:49:25,487-root-INFO-config is {'database': {'host': 'localhost', 'port': 5432, 'features': ['backup', 'replication']}}
+2026-07-02 14:57:39,401-root-INFO-Loading data from <built-in function input>
+2026-07-02 15:00:43,005-root-INFO-Loading data from <built-in function input>
+2026-07-02 15:17:02,073-root-INFO-Loading data from <built-in function input>
+2026-07-02 15:17:25,732-root-INFO-Loading data from <built-in function input>
+2026-07-02 15:27:05,486-root-INFO-Loading data from <built-in function input>
+2026-07-02 15:32:07,379-root-INFO-Loading data from <built-in function input>
+2026-07-02 15:33:07,806-root-INFO-Loading data from <built-in function input>
+2026-07-02 15:34:33,414-root-INFO-Loading data from <built-in function input>
+2026-07-02 15:35:12,329-root-INFO-Loading data from <built-in function input>
+2026-07-02 15:36:14,673-root-INFO-Loading data from <built-in function input>
+2026-07-02 15:38:02,826-root-INFO-Loading data from <built-in function input>

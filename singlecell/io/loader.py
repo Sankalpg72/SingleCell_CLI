@@ -15,7 +15,7 @@ def load_data(input_path : Path ) -> sc.AnnData :
         Parent directory to search in.
 
     input_path : is file : suffix == .h5ad or .h5 -> Load, else return error
-            : is dir : load it 
+            : is dir : check the files inside it , if they matches .mtx and .tsv then load it , else return error 
     """
 
     input_path = Path(input_path)
@@ -30,12 +30,33 @@ def load_data(input_path : Path ) -> sc.AnnData :
             return sc.read_10x_h5(input_path)
         else: 
             raise FileExistsError("No File exists.")
+        
 
     if input_path.is_dir():
-        for i in input_path:
-            if i.is_file() and i.suffix in ['.mtx','.tsv','.csv']: 
-                return sc.read_10x_mtx(input_path)
-    
-    raise ValueError(f"Input path is neither a file nor a directory: {input_path}")
+        try: 
+            return sc.read_10x_mtx(input_path)
+        except ValueError : 
+            pass
+
+        
+    # if input_path.is_dir():
+        
+    #     matrix = None 
+    #     barcodes = None 
+    #     features = None
+
+    #     for i in input_path.iterdir():
+    #         if i.is_file():
+    #             if i.name.endswith('.mtx'):
+    #                 matrix = i
+    #             elif i.name.endswith('barcodes.tsv'):
+    #                 barcodes = i 
+    #             elif i.name.endswith('features.tsv'):
+    #                 features = i
+    #     if matrix and barcodes and features : 
+    #         return sc.read_10x_mtx(input_path)
+        
+    #     raise ValueError("Cannot find the .mtx/.mtx.gz and .tsv files.")
+        
     
 

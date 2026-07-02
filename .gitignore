@@ -2,3 +2,4 @@ docs/.Rhistory
 .python-version
 singlecell/__pycache__/
 */*/__pycache__/
+singlecell/pipeline.log

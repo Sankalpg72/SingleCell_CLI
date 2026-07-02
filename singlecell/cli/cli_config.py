@@ -5,6 +5,7 @@ from typing import Annotated
 import sys
 import time 
 from singlecell.io.loader import load_data
+from singlecell.core.config import load_config
 
 app = typer.Typer()
 
@@ -19,8 +20,10 @@ def run(input_path : Annotated[ Path , typer.Option(...,'-i','--input',exists = 
         adata = load_data(input_path)
         logger.info(f"Loaded AnnData: {adata.shape[0]} cells x {adata.shape[1]} genes")
 
-
-
+    if config: 
+         logger.info(f"Loading the configs from {config}")
+         config = load_config(config)
+         logger.info(f"config is {config}")
     return 
 
 @app.command()
